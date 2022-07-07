@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Contact Us</title>
+  </head>
+  <body id="contact-body">
+    <header>
+      <nav>
+        <h1>KT-eaTery</h1>
+        <button class="open-nav">&equals;</button>
+      </nav>
+      <div class="nav hidden">
+        <button class="hide-nav">&times;</button>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+          <li><a href="blog.html">BLOG</a></li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section class="welcome-2">
+        <h1>We know how to serve you well! Reach out to us.</h1>
+      </section>
+      <section class="contact">
+        <div class="explanation">
+          <h2>Contact Us</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere, ex
+            consectetur. Facere quibusdam tempora est harum quisquam molestias
+            eligendi vel.
+          </p>
+        </div>
+        <form action="post">
+          <h1>Get In Touch</h1>
+          <p>
+            <label for="fullName">Full Name:</label>
+            <input type="text" id="fullName" required class="input" />
+          </p>
+          <p>
+            <label for="email">Email:</label>
+            <input
+              type="email"
+              id="email"
+              placeholder="example@gmail.com"
+              required
+              class="input"
+            />
+          </p>
+          <p>
+            <label for="phone">Phone Number:</label>
+            <input
+              type="tel"
+              id="phone"
+              placeholder="+234"
+              required
+              class="input"
+            />
+          </p>
+          <div>
+            <p>
+              would you like to recieve weekly updates about the stock market
+              from Tony via mail?
+            </p>
+            <p id="radio">yes<input type="checkbox" name="" id="radio" /></p>
+          </div>
+          <textarea
+            name=""
+            id=""
+            cols="20"
+            rows="10"
+            placeholder="Enter your message "
+            required
+          ></textarea>
+          <p><button type="submit">Submit</button></p>
+        </form>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
